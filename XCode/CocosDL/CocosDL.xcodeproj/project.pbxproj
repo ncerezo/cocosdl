@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E8916CAEBFC5842FE746D9 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E89A8FCE7A5F2B0606900D /* Log.cpp */; };
+		66E8971E1B4982A59364EA57 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E89A8FCE7A5F2B0606900D /* Log.cpp */; };
+		66E8975CB03138C095481D63 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E89F821DB73E3EE0997480 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E897B8FCD1A54195BBEB6D /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E89A8FCE7A5F2B0606900D /* Log.cpp */; };
+		66E89B583C3D3A232BB65201 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E89F821DB73E3EE0997480 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E89FBAE122D8710882DFD9 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E89F821DB73E3EE0997480 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D404B19C6FC6500F520BC /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400319C6FC6500F520BC /* Action.cpp */; };
+		6F0D404C19C6FC6500F520BC /* Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400419C6FC6500F520BC /* Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D404D19C6FC6500F520BC /* ActionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400519C6FC6500F520BC /* ActionFactory.cpp */; };
+		6F0D404E19C6FC6500F520BC /* ActionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400619C6FC6500F520BC /* ActionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D404F19C6FC6500F520BC /* ActionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400719C6FC6500F520BC /* ActionObserver.cpp */; };
+		6F0D405019C6FC6500F520BC /* ActionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400819C6FC6500F520BC /* ActionObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405119C6FC6500F520BC /* ActionPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400919C6FC6500F520BC /* ActionPool.cpp */; };
+		6F0D405219C6FC6500F520BC /* ActionPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400A19C6FC6500F520BC /* ActionPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405319C6FC6500F520BC /* FadeInAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400B19C6FC6500F520BC /* FadeInAction.cpp */; };
+		6F0D405419C6FC6500F520BC /* FadeInAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400C19C6FC6500F520BC /* FadeInAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405519C6FC6500F520BC /* FadeOutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400D19C6FC6500F520BC /* FadeOutAction.cpp */; };
+		6F0D405619C6FC6500F520BC /* FadeOutAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400E19C6FC6500F520BC /* FadeOutAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405719C6FC6500F520BC /* GroupAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400F19C6FC6500F520BC /* GroupAction.cpp */; };
+		6F0D405819C6FC6500F520BC /* GroupAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401019C6FC6500F520BC /* GroupAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405919C6FC6500F520BC /* MoveByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401119C6FC6500F520BC /* MoveByAction.cpp */; };
+		6F0D405A19C6FC6500F520BC /* MoveByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401219C6FC6500F520BC /* MoveByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405B19C6FC6500F520BC /* MoveToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401319C6FC6500F520BC /* MoveToAction.cpp */; };
+		6F0D405C19C6FC6500F520BC /* MoveToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401419C6FC6500F520BC /* MoveToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405D19C6FC6500F520BC /* PlayEffectAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401519C6FC6500F520BC /* PlayEffectAction.cpp */; };
+		6F0D405E19C6FC6500F520BC /* PlayEffectAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401619C6FC6500F520BC /* PlayEffectAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D405F19C6FC6500F520BC /* RemoveFromParentAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401719C6FC6500F520BC /* RemoveFromParentAction.cpp */; };
+		6F0D406019C6FC6500F520BC /* RemoveFromParentAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401819C6FC6500F520BC /* RemoveFromParentAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406119C6FC6500F520BC /* RepeatForeverAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401919C6FC6500F520BC /* RepeatForeverAction.cpp */; };
+		6F0D406219C6FC6500F520BC /* RepeatForeverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401A19C6FC6500F520BC /* RepeatForeverAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406319C6FC6500F520BC /* ResizeByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401B19C6FC6500F520BC /* ResizeByAction.cpp */; };
+		6F0D406419C6FC6500F520BC /* ResizeByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401C19C6FC6500F520BC /* ResizeByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406519C6FC6500F520BC /* ResizeToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401D19C6FC6500F520BC /* ResizeToAction.cpp */; };
+		6F0D406619C6FC6500F520BC /* ResizeToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401E19C6FC6500F520BC /* ResizeToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406719C6FC6500F520BC /* RotateByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401F19C6FC6500F520BC /* RotateByAction.cpp */; };
+		6F0D406819C6FC6500F520BC /* RotateByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402019C6FC6500F520BC /* RotateByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406919C6FC6500F520BC /* RotateToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402119C6FC6500F520BC /* RotateToAction.cpp */; };
+		6F0D406A19C6FC6500F520BC /* RotateToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402219C6FC6500F520BC /* RotateToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406B19C6FC6500F520BC /* RunCommandAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402319C6FC6500F520BC /* RunCommandAction.cpp */; };
+		6F0D406C19C6FC6500F520BC /* RunCommandAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402419C6FC6500F520BC /* RunCommandAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406D19C6FC6500F520BC /* SequenceAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402519C6FC6500F520BC /* SequenceAction.cpp */; };
+		6F0D406E19C6FC6500F520BC /* SequenceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402619C6FC6500F520BC /* SequenceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D406F19C6FC6500F520BC /* TiltLabelFontAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402719C6FC6500F520BC /* TiltLabelFontAction.cpp */; };
+		6F0D407019C6FC6500F520BC /* TiltLabelFontAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402819C6FC6500F520BC /* TiltLabelFontAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407119C6FC6500F520BC /* TimedAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402919C6FC6500F520BC /* TimedAction.cpp */; };
+		6F0D407219C6FC6500F520BC /* TimedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402A19C6FC6500F520BC /* TimedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407319C6FC6500F520BC /* WaitAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402B19C6FC6500F520BC /* WaitAction.cpp */; };
+		6F0D407419C6FC6500F520BC /* WaitAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402C19C6FC6500F520BC /* WaitAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407519C6FC6500F520BC /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402D19C6FC6500F520BC /* Button.cpp */; };
+		6F0D407619C6FC6500F520BC /* Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402E19C6FC6500F520BC /* Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407719C6FC6500F520BC /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402F19C6FC6500F520BC /* Color.cpp */; };
+		6F0D407819C6FC6500F520BC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403019C6FC6500F520BC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407919C6FC6500F520BC /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403119C6FC6500F520BC /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407A19C6FC6500F520BC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403219C6FC6500F520BC /* Game.cpp */; };
+		6F0D407B19C6FC6500F520BC /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403319C6FC6500F520BC /* Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407C19C6FC6500F520BC /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403419C6FC6500F520BC /* Label.cpp */; };
+		6F0D407D19C6FC6500F520BC /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403519C6FC6500F520BC /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D407E19C6FC6500F520BC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403619C6FC6500F520BC /* Node.cpp */; };
+		6F0D407F19C6FC6500F520BC /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403719C6FC6500F520BC /* Node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408019C6FC6500F520BC /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403819C6FC6500F520BC /* Point.cpp */; };
+		6F0D408119C6FC6500F520BC /* Point.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403919C6FC6500F520BC /* Point.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408219C6FC6500F520BC /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403A19C6FC6500F520BC /* Rect.cpp */; };
+		6F0D408319C6FC6500F520BC /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403B19C6FC6500F520BC /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408419C6FC6500F520BC /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403C19C6FC6500F520BC /* Renderer.cpp */; };
+		6F0D408519C6FC6500F520BC /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403D19C6FC6500F520BC /* Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408619C6FC6500F520BC /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403E19C6FC6500F520BC /* Scene.cpp */; };
+		6F0D408719C6FC6500F520BC /* Scene.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403F19C6FC6500F520BC /* Scene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408819C6FC6500F520BC /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404019C6FC6500F520BC /* Sprite.cpp */; };
+		6F0D408919C6FC6500F520BC /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404119C6FC6500F520BC /* Sprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408A19C6FC6500F520BC /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404219C6FC6500F520BC /* Texture.cpp */; };
+		6F0D408B19C6FC6500F520BC /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404319C6FC6500F520BC /* Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408C19C6FC6500F520BC /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404519C6FC6500F520BC /* Command.cpp */; };
+		6F0D408D19C6FC6500F520BC /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404619C6FC6500F520BC /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D408E19C6FC6500F520BC /* NodeVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404719C6FC6500F520BC /* NodeVector.cpp */; };
+		6F0D408F19C6FC6500F520BC /* NodeVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404819C6FC6500F520BC /* NodeVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D409019C6FC6500F520BC /* ObjectPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404919C6FC6500F520BC /* ObjectPool.cpp */; };
+		6F0D409119C6FC6500F520BC /* ObjectPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404A19C6FC6500F520BC /* ObjectPool.h */; };
+		6F0D409719C6FCA800F520BC /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409219C6FCA800F520BC /* SDL2_image.framework */; };
+		6F0D409819C6FCA800F520BC /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409319C6FCA800F520BC /* SDL2_mixer.framework */; };
+		6F0D409919C6FCA800F520BC /* SDL2_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409419C6FCA800F520BC /* SDL2_net.framework */; };
+		6F0D409A19C6FCA800F520BC /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409519C6FCA800F520BC /* SDL2_ttf.framework */; };
+		6F0D409B19C6FCA800F520BC /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409619C6FCA800F520BC /* SDL2.framework */; };
+		6F0D40C519C6FF2F00F520BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D40C419C6FF2F00F520BC /* Cocoa.framework */; };
+		6F0D40D319C6FF2F00F520BC /* CocosDL_F.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D40D219C6FF2F00F520BC /* CocosDL_F.m */; };
+		6F0D411319C7017100F520BC /* Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400419C6FC6500F520BC /* Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411419C7018A00F520BC /* ActionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400619C6FC6500F520BC /* ActionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411519C7018A00F520BC /* ActionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400819C6FC6500F520BC /* ActionObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411619C7018A00F520BC /* ActionPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400A19C6FC6500F520BC /* ActionPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411719C7018A00F520BC /* FadeInAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400C19C6FC6500F520BC /* FadeInAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411819C7018A00F520BC /* FadeOutAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400E19C6FC6500F520BC /* FadeOutAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411919C7018A00F520BC /* GroupAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401019C6FC6500F520BC /* GroupAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411A19C7018A00F520BC /* MoveByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401219C6FC6500F520BC /* MoveByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411B19C7018A00F520BC /* MoveToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401419C6FC6500F520BC /* MoveToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411C19C7018A00F520BC /* PlayEffectAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401619C6FC6500F520BC /* PlayEffectAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411D19C7018A00F520BC /* RemoveFromParentAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401819C6FC6500F520BC /* RemoveFromParentAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411E19C7018A00F520BC /* RepeatForeverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401A19C6FC6500F520BC /* RepeatForeverAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D411F19C701B200F520BC /* ResizeByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401C19C6FC6500F520BC /* ResizeByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412119C701B200F520BC /* ResizeToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401E19C6FC6500F520BC /* ResizeToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412319C701B200F520BC /* RotateByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402019C6FC6500F520BC /* RotateByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412519C701B200F520BC /* RotateToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402219C6FC6500F520BC /* RotateToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412719C701B200F520BC /* RunCommandAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402419C6FC6500F520BC /* RunCommandAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412919C701B200F520BC /* SequenceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402619C6FC6500F520BC /* SequenceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412B19C701B200F520BC /* TiltLabelFontAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402819C6FC6500F520BC /* TiltLabelFontAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412D19C701B200F520BC /* TimedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402A19C6FC6500F520BC /* TimedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D412F19C701B200F520BC /* WaitAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402C19C6FC6500F520BC /* WaitAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413119C701B200F520BC /* Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402E19C6FC6500F520BC /* Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413319C701B300F520BC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403019C6FC6500F520BC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413419C701B300F520BC /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403119C6FC6500F520BC /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413619C701B300F520BC /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403319C6FC6500F520BC /* Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413819C701B300F520BC /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403519C6FC6500F520BC /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413A19C701B300F520BC /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403719C6FC6500F520BC /* Node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413C19C701B300F520BC /* Point.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403919C6FC6500F520BC /* Point.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D413E19C701B300F520BC /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403B19C6FC6500F520BC /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414019C701B300F520BC /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403D19C6FC6500F520BC /* Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414219C701B300F520BC /* Scene.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403F19C6FC6500F520BC /* Scene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414419C701B400F520BC /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404119C6FC6500F520BC /* Sprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414619C701B400F520BC /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404319C6FC6500F520BC /* Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414819C701B400F520BC /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404619C6FC6500F520BC /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414B19C7027A00F520BC /* CocosDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D414A19C7027A00F520BC /* CocosDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D414D19C7038500F520BC /* CocosDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D414A19C7027A00F520BC /* CocosDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D415919C7070C00F520BC /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400319C6FC6500F520BC /* Action.cpp */; };
+		6F0D415A19C7070C00F520BC /* ActionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400519C6FC6500F520BC /* ActionFactory.cpp */; };
+		6F0D415B19C7070C00F520BC /* ActionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400719C6FC6500F520BC /* ActionObserver.cpp */; };
+		6F0D415C19C7070C00F520BC /* ActionPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400919C6FC6500F520BC /* ActionPool.cpp */; };
+		6F0D415D19C7070C00F520BC /* FadeInAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400B19C6FC6500F520BC /* FadeInAction.cpp */; };
+		6F0D415E19C7070C00F520BC /* FadeOutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400D19C6FC6500F520BC /* FadeOutAction.cpp */; };
+		6F0D415F19C7070C00F520BC /* GroupAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400F19C6FC6500F520BC /* GroupAction.cpp */; };
+		6F0D416019C7070C00F520BC /* MoveByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401119C6FC6500F520BC /* MoveByAction.cpp */; };
+		6F0D416119C7070C00F520BC /* MoveToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401319C6FC6500F520BC /* MoveToAction.cpp */; };
+		6F0D416219C7070C00F520BC /* PlayEffectAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401519C6FC6500F520BC /* PlayEffectAction.cpp */; };
+		6F0D416319C7070C00F520BC /* RemoveFromParentAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401719C6FC6500F520BC /* RemoveFromParentAction.cpp */; };
+		6F0D416419C7070C00F520BC /* RepeatForeverAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401919C6FC6500F520BC /* RepeatForeverAction.cpp */; };
+		6F0D416519C7070C00F520BC /* ResizeByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401B19C6FC6500F520BC /* ResizeByAction.cpp */; };
+		6F0D416619C7070C00F520BC /* ResizeToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401D19C6FC6500F520BC /* ResizeToAction.cpp */; };
+		6F0D416719C7070C00F520BC /* RotateByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401F19C6FC6500F520BC /* RotateByAction.cpp */; };
+		6F0D416819C7070C00F520BC /* RotateToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402119C6FC6500F520BC /* RotateToAction.cpp */; };
+		6F0D416919C7070C00F520BC /* RunCommandAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402319C6FC6500F520BC /* RunCommandAction.cpp */; };
+		6F0D416A19C7070C00F520BC /* SequenceAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402519C6FC6500F520BC /* SequenceAction.cpp */; };
+		6F0D416B19C7070C00F520BC /* TiltLabelFontAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402719C6FC6500F520BC /* TiltLabelFontAction.cpp */; };
+		6F0D416C19C7070C00F520BC /* TimedAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402919C6FC6500F520BC /* TimedAction.cpp */; };
+		6F0D416D19C7070C00F520BC /* WaitAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402B19C6FC6500F520BC /* WaitAction.cpp */; };
+		6F0D416E19C7070C00F520BC /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402D19C6FC6500F520BC /* Button.cpp */; };
+		6F0D416F19C7070C00F520BC /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402F19C6FC6500F520BC /* Color.cpp */; };
+		6F0D417019C7070C00F520BC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403219C6FC6500F520BC /* Game.cpp */; };
+		6F0D417119C7070C00F520BC /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403419C6FC6500F520BC /* Label.cpp */; };
+		6F0D417219C7070C00F520BC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403619C6FC6500F520BC /* Node.cpp */; };
+		6F0D417319C7070C00F520BC /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403819C6FC6500F520BC /* Point.cpp */; };
+		6F0D417419C7070C00F520BC /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403A19C6FC6500F520BC /* Rect.cpp */; };
+		6F0D417519C7070C00F520BC /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403C19C6FC6500F520BC /* Renderer.cpp */; };
+		6F0D417619C7070C00F520BC /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403E19C6FC6500F520BC /* Scene.cpp */; };
+		6F0D417719C7070C00F520BC /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404019C6FC6500F520BC /* Sprite.cpp */; };
+		6F0D417819C7070C00F520BC /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404219C6FC6500F520BC /* Texture.cpp */; };
+		6F0D417919C7070C00F520BC /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404519C6FC6500F520BC /* Command.cpp */; };
+		6F0D417A19C7070C00F520BC /* NodeVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404719C6FC6500F520BC /* NodeVector.cpp */; };
+		6F0D417B19C7070C00F520BC /* ObjectPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404919C6FC6500F520BC /* ObjectPool.cpp */; };
+		6F0D417C19C7076900F520BC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D40A219C6FD0F00F520BC /* CoreFoundation.framework */; };
+		6F0D418319C7076A00F520BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417D19C7076A00F520BC /* AudioToolbox.framework */; };
+		6F0D418419C7076A00F520BC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417E19C7076A00F520BC /* AudioUnit.framework */; };
+		6F0D418519C7076A00F520BC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417F19C7076A00F520BC /* Carbon.framework */; };
+		6F0D418619C7076A00F520BC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418019C7076A00F520BC /* CoreAudio.framework */; };
+		6F0D418719C7076A00F520BC /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418119C7076A00F520BC /* ForceFeedback.framework */; };
+		6F0D418819C7076A00F520BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418219C7076A00F520BC /* IOKit.framework */; };
+		6F0D418919C7079A00F520BC /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409219C6FCA800F520BC /* SDL2_image.framework */; };
+		6F0D418A19C7079A00F520BC /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409319C6FCA800F520BC /* SDL2_mixer.framework */; };
+		6F0D418B19C7079A00F520BC /* SDL2_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409419C6FCA800F520BC /* SDL2_net.framework */; };
+		6F0D418C19C7079A00F520BC /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409519C6FCA800F520BC /* SDL2_ttf.framework */; };
+		6F0D418D19C7079A00F520BC /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409619C6FCA800F520BC /* SDL2.framework */; };
+		6F0D418E19C7090C00F520BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417D19C7076A00F520BC /* AudioToolbox.framework */; };
+		6F0D418F19C7092200F520BC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417E19C7076A00F520BC /* AudioUnit.framework */; };
+		6F0D419019C7092200F520BC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417F19C7076A00F520BC /* Carbon.framework */; };
+		6F0D419119C7092200F520BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D40C419C6FF2F00F520BC /* Cocoa.framework */; };
+		6F0D419219C7092200F520BC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418019C7076A00F520BC /* CoreAudio.framework */; };
+		6F0D419319C7092200F520BC /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418119C7076A00F520BC /* ForceFeedback.framework */; };
+		6F0D419419C7092200F520BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418219C7076A00F520BC /* IOKit.framework */; };
+		6F0D419D19C709B700F520BC /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400319C6FC6500F520BC /* Action.cpp */; };
+		6F0D419E19C709B700F520BC /* ActionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400519C6FC6500F520BC /* ActionFactory.cpp */; };
+		6F0D419F19C709B700F520BC /* ActionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400719C6FC6500F520BC /* ActionObserver.cpp */; };
+		6F0D41A019C709B700F520BC /* ActionPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400919C6FC6500F520BC /* ActionPool.cpp */; };
+		6F0D41A119C709B700F520BC /* FadeInAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400B19C6FC6500F520BC /* FadeInAction.cpp */; };
+		6F0D41A219C709B700F520BC /* FadeOutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400D19C6FC6500F520BC /* FadeOutAction.cpp */; };
+		6F0D41A319C709B700F520BC /* GroupAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D400F19C6FC6500F520BC /* GroupAction.cpp */; };
+		6F0D41A419C709B700F520BC /* MoveByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401119C6FC6500F520BC /* MoveByAction.cpp */; };
+		6F0D41A519C709B700F520BC /* MoveToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401319C6FC6500F520BC /* MoveToAction.cpp */; };
+		6F0D41A619C709B700F520BC /* PlayEffectAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401519C6FC6500F520BC /* PlayEffectAction.cpp */; };
+		6F0D41A719C709B700F520BC /* RemoveFromParentAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401719C6FC6500F520BC /* RemoveFromParentAction.cpp */; };
+		6F0D41A819C709B700F520BC /* RepeatForeverAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401919C6FC6500F520BC /* RepeatForeverAction.cpp */; };
+		6F0D41A919C709B700F520BC /* ResizeByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401B19C6FC6500F520BC /* ResizeByAction.cpp */; };
+		6F0D41AA19C709B700F520BC /* ResizeToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401D19C6FC6500F520BC /* ResizeToAction.cpp */; };
+		6F0D41AB19C709B700F520BC /* RotateByAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D401F19C6FC6500F520BC /* RotateByAction.cpp */; };
+		6F0D41AC19C709B700F520BC /* RotateToAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402119C6FC6500F520BC /* RotateToAction.cpp */; };
+		6F0D41AD19C709B700F520BC /* RunCommandAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402319C6FC6500F520BC /* RunCommandAction.cpp */; };
+		6F0D41AE19C709B700F520BC /* SequenceAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402519C6FC6500F520BC /* SequenceAction.cpp */; };
+		6F0D41AF19C709B700F520BC /* TiltLabelFontAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402719C6FC6500F520BC /* TiltLabelFontAction.cpp */; };
+		6F0D41B019C709B700F520BC /* TimedAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402919C6FC6500F520BC /* TimedAction.cpp */; };
+		6F0D41B119C709B700F520BC /* WaitAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402B19C6FC6500F520BC /* WaitAction.cpp */; };
+		6F0D41B219C709B700F520BC /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402D19C6FC6500F520BC /* Button.cpp */; };
+		6F0D41B319C709B700F520BC /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D402F19C6FC6500F520BC /* Color.cpp */; };
+		6F0D41B419C709B700F520BC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403219C6FC6500F520BC /* Game.cpp */; };
+		6F0D41B519C709B700F520BC /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403419C6FC6500F520BC /* Label.cpp */; };
+		6F0D41B619C709B700F520BC /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403619C6FC6500F520BC /* Node.cpp */; };
+		6F0D41B719C709B700F520BC /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403819C6FC6500F520BC /* Point.cpp */; };
+		6F0D41B819C709B700F520BC /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403A19C6FC6500F520BC /* Rect.cpp */; };
+		6F0D41B919C709B700F520BC /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403C19C6FC6500F520BC /* Renderer.cpp */; };
+		6F0D41BA19C709B700F520BC /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D403E19C6FC6500F520BC /* Scene.cpp */; };
+		6F0D41BB19C709B700F520BC /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404019C6FC6500F520BC /* Sprite.cpp */; };
+		6F0D41BC19C709B700F520BC /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404219C6FC6500F520BC /* Texture.cpp */; };
+		6F0D41BD19C709B800F520BC /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404519C6FC6500F520BC /* Command.cpp */; };
+		6F0D41BE19C709B800F520BC /* NodeVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404719C6FC6500F520BC /* NodeVector.cpp */; };
+		6F0D41BF19C709B800F520BC /* ObjectPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0D404919C6FC6500F520BC /* ObjectPool.cpp */; };
+		6F0D41C019C709E700F520BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417D19C7076A00F520BC /* AudioToolbox.framework */; };
+		6F0D41C119C709E700F520BC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417E19C7076A00F520BC /* AudioUnit.framework */; };
+		6F0D41C219C709E700F520BC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D417F19C7076A00F520BC /* Carbon.framework */; };
+		6F0D41C319C709E700F520BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D40C419C6FF2F00F520BC /* Cocoa.framework */; };
+		6F0D41C419C709E700F520BC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418019C7076A00F520BC /* CoreAudio.framework */; };
+		6F0D41C519C709E700F520BC /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418119C7076A00F520BC /* ForceFeedback.framework */; };
+		6F0D41C619C709E700F520BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D418219C7076A00F520BC /* IOKit.framework */; };
+		6F0D41C719C70A0500F520BC /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409219C6FCA800F520BC /* SDL2_image.framework */; };
+		6F0D41C819C70A0500F520BC /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409319C6FCA800F520BC /* SDL2_mixer.framework */; };
+		6F0D41C919C70A0500F520BC /* SDL2_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409419C6FCA800F520BC /* SDL2_net.framework */; };
+		6F0D41CA19C70A0500F520BC /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409519C6FCA800F520BC /* SDL2_ttf.framework */; };
+		6F0D41CB19C70A0500F520BC /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D409619C6FCA800F520BC /* SDL2.framework */; };
+		6F0D41CC19C70A1800F520BC /* Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400419C6FC6500F520BC /* Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41CD19C70A1800F520BC /* ActionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400619C6FC6500F520BC /* ActionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41CE19C70A1800F520BC /* ActionObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400819C6FC6500F520BC /* ActionObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41CF19C70A1800F520BC /* ActionPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400A19C6FC6500F520BC /* ActionPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D019C70A1800F520BC /* FadeInAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400C19C6FC6500F520BC /* FadeInAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D119C70A1800F520BC /* FadeOutAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D400E19C6FC6500F520BC /* FadeOutAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D219C70A1800F520BC /* GroupAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401019C6FC6500F520BC /* GroupAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D319C70A1800F520BC /* MoveByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401219C6FC6500F520BC /* MoveByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D419C70A1800F520BC /* MoveToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401419C6FC6500F520BC /* MoveToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D519C70A1800F520BC /* PlayEffectAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401619C6FC6500F520BC /* PlayEffectAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D619C70A1800F520BC /* RemoveFromParentAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401819C6FC6500F520BC /* RemoveFromParentAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D719C70A1800F520BC /* RepeatForeverAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401A19C6FC6500F520BC /* RepeatForeverAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D819C70A1800F520BC /* ResizeByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401C19C6FC6500F520BC /* ResizeByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41D919C70A1900F520BC /* ResizeToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D401E19C6FC6500F520BC /* ResizeToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DA19C70A1900F520BC /* RotateByAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402019C6FC6500F520BC /* RotateByAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DB19C70A1900F520BC /* RotateToAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402219C6FC6500F520BC /* RotateToAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DC19C70A1900F520BC /* RunCommandAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402419C6FC6500F520BC /* RunCommandAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DD19C70A1900F520BC /* SequenceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402619C6FC6500F520BC /* SequenceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DE19C70A1900F520BC /* TiltLabelFontAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402819C6FC6500F520BC /* TiltLabelFontAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41DF19C70A1900F520BC /* TimedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402A19C6FC6500F520BC /* TimedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E019C70A1900F520BC /* WaitAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402C19C6FC6500F520BC /* WaitAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E119C70A1900F520BC /* Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D402E19C6FC6500F520BC /* Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E219C70A1900F520BC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403019C6FC6500F520BC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E319C70A1900F520BC /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403119C6FC6500F520BC /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E419C70A1900F520BC /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403319C6FC6500F520BC /* Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E519C70A1900F520BC /* Label.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403519C6FC6500F520BC /* Label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E619C70A1900F520BC /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403719C6FC6500F520BC /* Node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E719C70A1900F520BC /* Point.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403919C6FC6500F520BC /* Point.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E819C70A1900F520BC /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403B19C6FC6500F520BC /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41E919C70A1A00F520BC /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403D19C6FC6500F520BC /* Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41EA19C70A1A00F520BC /* Scene.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D403F19C6FC6500F520BC /* Scene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41EB19C70A1A00F520BC /* Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404119C6FC6500F520BC /* Sprite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41EC19C70A1A00F520BC /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404319C6FC6500F520BC /* Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41ED19C70A1A00F520BC /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404619C6FC6500F520BC /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41EE19C70A1A00F520BC /* NodeVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404819C6FC6500F520BC /* NodeVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D41EF19C70A1A00F520BC /* ObjectPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404A19C6FC6500F520BC /* ObjectPool.h */; };
+		6F0D41F019C70A1A00F520BC /* CocosDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D414A19C7027A00F520BC /* CocosDL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0D421019C7113B00F520BC /* NodeVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D404819C6FC6500F520BC /* NodeVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66E89A8FCE7A5F2B0606900D /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		66E89F821DB73E3EE0997480 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		6F0D3FDF19C6FAFF00F520BC /* libCocosDL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCocosDL.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0D400319C6FC6500F520BC /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cpp; sourceTree = "<group>"; };
+		6F0D400419C6FC6500F520BC /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		6F0D400519C6FC6500F520BC /* ActionFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionFactory.cpp; sourceTree = "<group>"; };
+		6F0D400619C6FC6500F520BC /* ActionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionFactory.h; sourceTree = "<group>"; };
+		6F0D400719C6FC6500F520BC /* ActionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionObserver.cpp; sourceTree = "<group>"; };
+		6F0D400819C6FC6500F520BC /* ActionObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionObserver.h; sourceTree = "<group>"; };
+		6F0D400919C6FC6500F520BC /* ActionPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionPool.cpp; sourceTree = "<group>"; };
+		6F0D400A19C6FC6500F520BC /* ActionPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPool.h; sourceTree = "<group>"; };
+		6F0D400B19C6FC6500F520BC /* FadeInAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeInAction.cpp; sourceTree = "<group>"; };
+		6F0D400C19C6FC6500F520BC /* FadeInAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeInAction.h; sourceTree = "<group>"; };
+		6F0D400D19C6FC6500F520BC /* FadeOutAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeOutAction.cpp; sourceTree = "<group>"; };
+		6F0D400E19C6FC6500F520BC /* FadeOutAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeOutAction.h; sourceTree = "<group>"; };
+		6F0D400F19C6FC6500F520BC /* GroupAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroupAction.cpp; sourceTree = "<group>"; };
+		6F0D401019C6FC6500F520BC /* GroupAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAction.h; sourceTree = "<group>"; };
+		6F0D401119C6FC6500F520BC /* MoveByAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveByAction.cpp; sourceTree = "<group>"; };
+		6F0D401219C6FC6500F520BC /* MoveByAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveByAction.h; sourceTree = "<group>"; };
+		6F0D401319C6FC6500F520BC /* MoveToAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveToAction.cpp; sourceTree = "<group>"; };
+		6F0D401419C6FC6500F520BC /* MoveToAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveToAction.h; sourceTree = "<group>"; };
+		6F0D401519C6FC6500F520BC /* PlayEffectAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayEffectAction.cpp; sourceTree = "<group>"; };
+		6F0D401619C6FC6500F520BC /* PlayEffectAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayEffectAction.h; sourceTree = "<group>"; };
+		6F0D401719C6FC6500F520BC /* RemoveFromParentAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveFromParentAction.cpp; sourceTree = "<group>"; };
+		6F0D401819C6FC6500F520BC /* RemoveFromParentAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveFromParentAction.h; sourceTree = "<group>"; };
+		6F0D401919C6FC6500F520BC /* RepeatForeverAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatForeverAction.cpp; sourceTree = "<group>"; };
+		6F0D401A19C6FC6500F520BC /* RepeatForeverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatForeverAction.h; sourceTree = "<group>"; };
+		6F0D401B19C6FC6500F520BC /* ResizeByAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResizeByAction.cpp; sourceTree = "<group>"; };
+		6F0D401C19C6FC6500F520BC /* ResizeByAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeByAction.h; sourceTree = "<group>"; };
+		6F0D401D19C6FC6500F520BC /* ResizeToAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResizeToAction.cpp; sourceTree = "<group>"; };
+		6F0D401E19C6FC6500F520BC /* ResizeToAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeToAction.h; sourceTree = "<group>"; };
+		6F0D401F19C6FC6500F520BC /* RotateByAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateByAction.cpp; sourceTree = "<group>"; };
+		6F0D402019C6FC6500F520BC /* RotateByAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateByAction.h; sourceTree = "<group>"; };
+		6F0D402119C6FC6500F520BC /* RotateToAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotateToAction.cpp; sourceTree = "<group>"; };
+		6F0D402219C6FC6500F520BC /* RotateToAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateToAction.h; sourceTree = "<group>"; };
+		6F0D402319C6FC6500F520BC /* RunCommandAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunCommandAction.cpp; sourceTree = "<group>"; };
+		6F0D402419C6FC6500F520BC /* RunCommandAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCommandAction.h; sourceTree = "<group>"; };
+		6F0D402519C6FC6500F520BC /* SequenceAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SequenceAction.cpp; sourceTree = "<group>"; };
+		6F0D402619C6FC6500F520BC /* SequenceAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceAction.h; sourceTree = "<group>"; };
+		6F0D402719C6FC6500F520BC /* TiltLabelFontAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TiltLabelFontAction.cpp; sourceTree = "<group>"; };
+		6F0D402819C6FC6500F520BC /* TiltLabelFontAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiltLabelFontAction.h; sourceTree = "<group>"; };
+		6F0D402919C6FC6500F520BC /* TimedAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimedAction.cpp; sourceTree = "<group>"; };
+		6F0D402A19C6FC6500F520BC /* TimedAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimedAction.h; sourceTree = "<group>"; };
+		6F0D402B19C6FC6500F520BC /* WaitAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaitAction.cpp; sourceTree = "<group>"; };
+		6F0D402C19C6FC6500F520BC /* WaitAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitAction.h; sourceTree = "<group>"; };
+		6F0D402D19C6FC6500F520BC /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		6F0D402E19C6FC6500F520BC /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		6F0D402F19C6FC6500F520BC /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		6F0D403019C6FC6500F520BC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		6F0D403119C6FC6500F520BC /* Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
+		6F0D403219C6FC6500F520BC /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		6F0D403319C6FC6500F520BC /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6F0D403419C6FC6500F520BC /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
+		6F0D403519C6FC6500F520BC /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		6F0D403619C6FC6500F520BC /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		6F0D403719C6FC6500F520BC /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		6F0D403819C6FC6500F520BC /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		6F0D403919C6FC6500F520BC /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		6F0D403A19C6FC6500F520BC /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rect.cpp; sourceTree = "<group>"; };
+		6F0D403B19C6FC6500F520BC /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
+		6F0D403C19C6FC6500F520BC /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		6F0D403D19C6FC6500F520BC /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		6F0D403E19C6FC6500F520BC /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		6F0D403F19C6FC6500F520BC /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		6F0D404019C6FC6500F520BC /* Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		6F0D404119C6FC6500F520BC /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		6F0D404219C6FC6500F520BC /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		6F0D404319C6FC6500F520BC /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		6F0D404519C6FC6500F520BC /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		6F0D404619C6FC6500F520BC /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		6F0D404719C6FC6500F520BC /* NodeVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeVector.cpp; sourceTree = "<group>"; };
+		6F0D404819C6FC6500F520BC /* NodeVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeVector.h; sourceTree = "<group>"; };
+		6F0D404919C6FC6500F520BC /* ObjectPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectPool.cpp; sourceTree = "<group>"; };
+		6F0D404A19C6FC6500F520BC /* ObjectPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectPool.h; sourceTree = "<group>"; };
+		6F0D409219C6FCA800F520BC /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = /Library/Frameworks/SDL2_image.framework; sourceTree = "<absolute>"; };
+		6F0D409319C6FCA800F520BC /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = /Library/Frameworks/SDL2_mixer.framework; sourceTree = "<absolute>"; };
+		6F0D409419C6FCA800F520BC /* SDL2_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_net.framework; path = /Library/Frameworks/SDL2_net.framework; sourceTree = "<absolute>"; };
+		6F0D409519C6FCA800F520BC /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = /Library/Frameworks/SDL2_ttf.framework; sourceTree = "<absolute>"; };
+		6F0D409619C6FCA800F520BC /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = /Library/Frameworks/SDL2.framework; sourceTree = "<absolute>"; };
+		6F0D40A219C6FD0F00F520BC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6F0D40A619C6FD0F00F520BC /* CocosDLF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocosDLF-Info.plist"; sourceTree = "<group>"; };
+		6F0D40A819C6FD0F00F520BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0D40AA19C6FD0F00F520BC /* CocosDLF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocosDLF-Prefix.pch"; sourceTree = "<group>"; };
+		6F0D40C319C6FF2F00F520BC /* CocosDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocosDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0D40C419C6FF2F00F520BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F0D40C719C6FF2F00F520BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F0D40C819C6FF2F00F520BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F0D40C919C6FF2F00F520BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F0D40CC19C6FF2F00F520BC /* CocosDL-F-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocosDL-F-Info.plist"; sourceTree = "<group>"; };
+		6F0D40CE19C6FF2F00F520BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0D40D019C6FF2F00F520BC /* CocosDL-F-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocosDL-F-Prefix.pch"; sourceTree = "<group>"; };
+		6F0D40D119C6FF2F00F520BC /* CocosDL_F.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocosDL_F.h; sourceTree = "<group>"; };
+		6F0D40D219C6FF2F00F520BC /* CocosDL_F.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocosDL_F.m; sourceTree = "<group>"; };
+		6F0D40D919C6FF3000F520BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F0D40E119C6FF3000F520BC /* CocosDL-FTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocosDL-FTests-Info.plist"; sourceTree = "<group>"; };
+		6F0D40E319C6FF3000F520BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0D40E519C6FF3000F520BC /* CocosDL_FTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocosDL_FTests.m; sourceTree = "<group>"; };
+		6F0D414A19C7027A00F520BC /* CocosDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosDL.h; sourceTree = "<group>"; };
+		6F0D417D19C7076A00F520BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6F0D417E19C7076A00F520BC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		6F0D417F19C7076A00F520BC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		6F0D418019C7076A00F520BC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6F0D418119C7076A00F520BC /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
+		6F0D418219C7076A00F520BC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6F0D419919C7099300F520BC /* libCocosDL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocosDL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0D3FDC19C6FAFF00F520BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D418F19C7092200F520BC /* AudioUnit.framework in Frameworks */,
+				6F0D419019C7092200F520BC /* Carbon.framework in Frameworks */,
+				6F0D419119C7092200F520BC /* Cocoa.framework in Frameworks */,
+				6F0D419219C7092200F520BC /* CoreAudio.framework in Frameworks */,
+				6F0D419319C7092200F520BC /* ForceFeedback.framework in Frameworks */,
+				6F0D419419C7092200F520BC /* IOKit.framework in Frameworks */,
+				6F0D418E19C7090C00F520BC /* AudioToolbox.framework in Frameworks */,
+				6F0D409B19C6FCA800F520BC /* SDL2.framework in Frameworks */,
+				6F0D409A19C6FCA800F520BC /* SDL2_ttf.framework in Frameworks */,
+				6F0D409719C6FCA800F520BC /* SDL2_image.framework in Frameworks */,
+				6F0D409819C6FCA800F520BC /* SDL2_mixer.framework in Frameworks */,
+				6F0D409919C6FCA800F520BC /* SDL2_net.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D40BF19C6FF2F00F520BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D418919C7079A00F520BC /* SDL2_image.framework in Frameworks */,
+				6F0D418A19C7079A00F520BC /* SDL2_mixer.framework in Frameworks */,
+				6F0D418B19C7079A00F520BC /* SDL2_net.framework in Frameworks */,
+				6F0D418C19C7079A00F520BC /* SDL2_ttf.framework in Frameworks */,
+				6F0D418D19C7079A00F520BC /* SDL2.framework in Frameworks */,
+				6F0D418319C7076A00F520BC /* AudioToolbox.framework in Frameworks */,
+				6F0D418419C7076A00F520BC /* AudioUnit.framework in Frameworks */,
+				6F0D418519C7076A00F520BC /* Carbon.framework in Frameworks */,
+				6F0D418619C7076A00F520BC /* CoreAudio.framework in Frameworks */,
+				6F0D418719C7076A00F520BC /* ForceFeedback.framework in Frameworks */,
+				6F0D418819C7076A00F520BC /* IOKit.framework in Frameworks */,
+				6F0D417C19C7076900F520BC /* CoreFoundation.framework in Frameworks */,
+				6F0D40C519C6FF2F00F520BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D419619C7099300F520BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D41C719C70A0500F520BC /* SDL2_image.framework in Frameworks */,
+				6F0D41C819C70A0500F520BC /* SDL2_mixer.framework in Frameworks */,
+				6F0D41C919C70A0500F520BC /* SDL2_net.framework in Frameworks */,
+				6F0D41CA19C70A0500F520BC /* SDL2_ttf.framework in Frameworks */,
+				6F0D41CB19C70A0500F520BC /* SDL2.framework in Frameworks */,
+				6F0D41C019C709E700F520BC /* AudioToolbox.framework in Frameworks */,
+				6F0D41C119C709E700F520BC /* AudioUnit.framework in Frameworks */,
+				6F0D41C219C709E700F520BC /* Carbon.framework in Frameworks */,
+				6F0D41C319C709E700F520BC /* Cocoa.framework in Frameworks */,
+				6F0D41C419C709E700F520BC /* CoreAudio.framework in Frameworks */,
+				6F0D41C519C709E700F520BC /* ForceFeedback.framework in Frameworks */,
+				6F0D41C619C709E700F520BC /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0D3FD619C6FAFF00F520BC = {
+			isa = PBXGroup;
+			children = (
+				6F0D400119C6FC6500F520BC /* src */,
+				6F0D40A419C6FD0F00F520BC /* CocosDLF */,
+				6F0D40CA19C6FF2F00F520BC /* CocosDL-F */,
+				6F0D40DF19C6FF3000F520BC /* CocosDL-FTests */,
+				6F0D40A119C6FD0F00F520BC /* Frameworks */,
+				6F0D3FE019C6FAFF00F520BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0D3FE019C6FAFF00F520BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D3FDF19C6FAFF00F520BC /* libCocosDL.dylib */,
+				6F0D40C319C6FF2F00F520BC /* CocosDL.framework */,
+				6F0D419919C7099300F520BC /* libCocosDL.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0D400119C6FC6500F520BC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D400219C6FC6500F520BC /* action */,
+				6F0D402D19C6FC6500F520BC /* Button.cpp */,
+				6F0D402E19C6FC6500F520BC /* Button.h */,
+				6F0D402F19C6FC6500F520BC /* Color.cpp */,
+				6F0D403019C6FC6500F520BC /* Color.h */,
+				6F0D403119C6FC6500F520BC /* Framework.h */,
+				6F0D403219C6FC6500F520BC /* Game.cpp */,
+				6F0D403319C6FC6500F520BC /* Game.h */,
+				6F0D403419C6FC6500F520BC /* Label.cpp */,
+				6F0D403519C6FC6500F520BC /* Label.h */,
+				6F0D403619C6FC6500F520BC /* Node.cpp */,
+				6F0D403719C6FC6500F520BC /* Node.h */,
+				6F0D403819C6FC6500F520BC /* Point.cpp */,
+				6F0D403919C6FC6500F520BC /* Point.h */,
+				6F0D403A19C6FC6500F520BC /* Rect.cpp */,
+				6F0D403B19C6FC6500F520BC /* Rect.h */,
+				6F0D403C19C6FC6500F520BC /* Renderer.cpp */,
+				6F0D403D19C6FC6500F520BC /* Renderer.h */,
+				6F0D403E19C6FC6500F520BC /* Scene.cpp */,
+				6F0D403F19C6FC6500F520BC /* Scene.h */,
+				6F0D404019C6FC6500F520BC /* Sprite.cpp */,
+				6F0D404119C6FC6500F520BC /* Sprite.h */,
+				6F0D404219C6FC6500F520BC /* Texture.cpp */,
+				6F0D404319C6FC6500F520BC /* Texture.h */,
+				6F0D404419C6FC6500F520BC /* util */,
+				6F0D414A19C7027A00F520BC /* CocosDL.h */,
+				66E89A8FCE7A5F2B0606900D /* Log.cpp */,
+				66E89F821DB73E3EE0997480 /* Log.h */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		6F0D400219C6FC6500F520BC /* action */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D400319C6FC6500F520BC /* Action.cpp */,
+				6F0D400419C6FC6500F520BC /* Action.h */,
+				6F0D400519C6FC6500F520BC /* ActionFactory.cpp */,
+				6F0D400619C6FC6500F520BC /* ActionFactory.h */,
+				6F0D400719C6FC6500F520BC /* ActionObserver.cpp */,
+				6F0D400819C6FC6500F520BC /* ActionObserver.h */,
+				6F0D400919C6FC6500F520BC /* ActionPool.cpp */,
+				6F0D400A19C6FC6500F520BC /* ActionPool.h */,
+				6F0D400B19C6FC6500F520BC /* FadeInAction.cpp */,
+				6F0D400C19C6FC6500F520BC /* FadeInAction.h */,
+				6F0D400D19C6FC6500F520BC /* FadeOutAction.cpp */,
+				6F0D400E19C6FC6500F520BC /* FadeOutAction.h */,
+				6F0D400F19C6FC6500F520BC /* GroupAction.cpp */,
+				6F0D401019C6FC6500F520BC /* GroupAction.h */,
+				6F0D401119C6FC6500F520BC /* MoveByAction.cpp */,
+				6F0D401219C6FC6500F520BC /* MoveByAction.h */,
+				6F0D401319C6FC6500F520BC /* MoveToAction.cpp */,
+				6F0D401419C6FC6500F520BC /* MoveToAction.h */,
+				6F0D401519C6FC6500F520BC /* PlayEffectAction.cpp */,
+				6F0D401619C6FC6500F520BC /* PlayEffectAction.h */,
+				6F0D401719C6FC6500F520BC /* RemoveFromParentAction.cpp */,
+				6F0D401819C6FC6500F520BC /* RemoveFromParentAction.h */,
+				6F0D401919C6FC6500F520BC /* RepeatForeverAction.cpp */,
+				6F0D401A19C6FC6500F520BC /* RepeatForeverAction.h */,
+				6F0D401B19C6FC6500F520BC /* ResizeByAction.cpp */,
+				6F0D401C19C6FC6500F520BC /* ResizeByAction.h */,
+				6F0D401D19C6FC6500F520BC /* ResizeToAction.cpp */,
+				6F0D401E19C6FC6500F520BC /* ResizeToAction.h */,
+				6F0D401F19C6FC6500F520BC /* RotateByAction.cpp */,
+				6F0D402019C6FC6500F520BC /* RotateByAction.h */,
+				6F0D402119C6FC6500F520BC /* RotateToAction.cpp */,
+				6F0D402219C6FC6500F520BC /* RotateToAction.h */,
+				6F0D402319C6FC6500F520BC /* RunCommandAction.cpp */,
+				6F0D402419C6FC6500F520BC /* RunCommandAction.h */,
+				6F0D402519C6FC6500F520BC /* SequenceAction.cpp */,
+				6F0D402619C6FC6500F520BC /* SequenceAction.h */,
+				6F0D402719C6FC6500F520BC /* TiltLabelFontAction.cpp */,
+				6F0D402819C6FC6500F520BC /* TiltLabelFontAction.h */,
+				6F0D402919C6FC6500F520BC /* TimedAction.cpp */,
+				6F0D402A19C6FC6500F520BC /* TimedAction.h */,
+				6F0D402B19C6FC6500F520BC /* WaitAction.cpp */,
+				6F0D402C19C6FC6500F520BC /* WaitAction.h */,
+			);
+			path = action;
+			sourceTree = "<group>";
+		};
+		6F0D404419C6FC6500F520BC /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D404519C6FC6500F520BC /* Command.cpp */,
+				6F0D404619C6FC6500F520BC /* Command.h */,
+				6F0D404719C6FC6500F520BC /* NodeVector.cpp */,
+				6F0D404819C6FC6500F520BC /* NodeVector.h */,
+				6F0D404919C6FC6500F520BC /* ObjectPool.cpp */,
+				6F0D404A19C6FC6500F520BC /* ObjectPool.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6F0D40A119C6FD0F00F520BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D417D19C7076A00F520BC /* AudioToolbox.framework */,
+				6F0D417E19C7076A00F520BC /* AudioUnit.framework */,
+				6F0D417F19C7076A00F520BC /* Carbon.framework */,
+				6F0D418019C7076A00F520BC /* CoreAudio.framework */,
+				6F0D418119C7076A00F520BC /* ForceFeedback.framework */,
+				6F0D418219C7076A00F520BC /* IOKit.framework */,
+				6F0D40A219C6FD0F00F520BC /* CoreFoundation.framework */,
+				6F0D40C419C6FF2F00F520BC /* Cocoa.framework */,
+				6F0D40D919C6FF3000F520BC /* XCTest.framework */,
+				6F0D40C619C6FF2F00F520BC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F0D40A419C6FD0F00F520BC /* CocosDLF */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40A519C6FD0F00F520BC /* Supporting Files */,
+			);
+			path = CocosDLF;
+			sourceTree = "<group>";
+		};
+		6F0D40A519C6FD0F00F520BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40A619C6FD0F00F520BC /* CocosDLF-Info.plist */,
+				6F0D40A719C6FD0F00F520BC /* InfoPlist.strings */,
+				6F0D40AA19C6FD0F00F520BC /* CocosDLF-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F0D40C619C6FF2F00F520BC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D409219C6FCA800F520BC /* SDL2_image.framework */,
+				6F0D409319C6FCA800F520BC /* SDL2_mixer.framework */,
+				6F0D409419C6FCA800F520BC /* SDL2_net.framework */,
+				6F0D409519C6FCA800F520BC /* SDL2_ttf.framework */,
+				6F0D409619C6FCA800F520BC /* SDL2.framework */,
+				6F0D40C719C6FF2F00F520BC /* Foundation.framework */,
+				6F0D40C819C6FF2F00F520BC /* CoreData.framework */,
+				6F0D40C919C6FF2F00F520BC /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F0D40CA19C6FF2F00F520BC /* CocosDL-F */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40D119C6FF2F00F520BC /* CocosDL_F.h */,
+				6F0D40D219C6FF2F00F520BC /* CocosDL_F.m */,
+				6F0D40CB19C6FF2F00F520BC /* Supporting Files */,
+			);
+			path = "CocosDL-F";
+			sourceTree = "<group>";
+		};
+		6F0D40CB19C6FF2F00F520BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40CC19C6FF2F00F520BC /* CocosDL-F-Info.plist */,
+				6F0D40CD19C6FF2F00F520BC /* InfoPlist.strings */,
+				6F0D40D019C6FF2F00F520BC /* CocosDL-F-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F0D40DF19C6FF3000F520BC /* CocosDL-FTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40E519C6FF3000F520BC /* CocosDL_FTests.m */,
+				6F0D40E019C6FF3000F520BC /* Supporting Files */,
+			);
+			path = "CocosDL-FTests";
+			sourceTree = "<group>";
+		};
+		6F0D40E019C6FF3000F520BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40E119C6FF3000F520BC /* CocosDL-FTests-Info.plist */,
+				6F0D40E219C6FF3000F520BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F0D3FDD19C6FAFF00F520BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D405C19C6FC6500F520BC /* MoveToAction.h in Headers */,
+				6F0D407D19C6FC6500F520BC /* Label.h in Headers */,
+				6F0D408719C6FC6500F520BC /* Scene.h in Headers */,
+				6F0D407819C6FC6500F520BC /* Color.h in Headers */,
+				6F0D405E19C6FC6500F520BC /* PlayEffectAction.h in Headers */,
+				6F0D406819C6FC6500F520BC /* RotateByAction.h in Headers */,
+				6F0D405019C6FC6500F520BC /* ActionObserver.h in Headers */,
+				6F0D407219C6FC6500F520BC /* TimedAction.h in Headers */,
+				6F0D406219C6FC6500F520BC /* RepeatForeverAction.h in Headers */,
+				6F0D404C19C6FC6500F520BC /* Action.h in Headers */,
+				6F0D406A19C6FC6500F520BC /* RotateToAction.h in Headers */,
+				6F0D406019C6FC6500F520BC /* RemoveFromParentAction.h in Headers */,
+				6F0D405419C6FC6500F520BC /* FadeInAction.h in Headers */,
+				6F0D406E19C6FC6500F520BC /* SequenceAction.h in Headers */,
+				6F0D408F19C6FC6500F520BC /* NodeVector.h in Headers */,
+				6F0D408519C6FC6500F520BC /* Renderer.h in Headers */,
+				6F0D405819C6FC6500F520BC /* GroupAction.h in Headers */,
+				6F0D405A19C6FC6500F520BC /* MoveByAction.h in Headers */,
+				6F0D407419C6FC6500F520BC /* WaitAction.h in Headers */,
+				6F0D408B19C6FC6500F520BC /* Texture.h in Headers */,
+				6F0D407B19C6FC6500F520BC /* Game.h in Headers */,
+				6F0D407919C6FC6500F520BC /* Framework.h in Headers */,
+				6F0D406C19C6FC6500F520BC /* RunCommandAction.h in Headers */,
+				6F0D408919C6FC6500F520BC /* Sprite.h in Headers */,
+				6F0D408319C6FC6500F520BC /* Rect.h in Headers */,
+				6F0D407019C6FC6500F520BC /* TiltLabelFontAction.h in Headers */,
+				6F0D405219C6FC6500F520BC /* ActionPool.h in Headers */,
+				6F0D404E19C6FC6500F520BC /* ActionFactory.h in Headers */,
+				6F0D407F19C6FC6500F520BC /* Node.h in Headers */,
+				6F0D406619C6FC6500F520BC /* ResizeToAction.h in Headers */,
+				6F0D405619C6FC6500F520BC /* FadeOutAction.h in Headers */,
+				6F0D408D19C6FC6500F520BC /* Command.h in Headers */,
+				6F0D407619C6FC6500F520BC /* Button.h in Headers */,
+				6F0D406419C6FC6500F520BC /* ResizeByAction.h in Headers */,
+				6F0D408119C6FC6500F520BC /* Point.h in Headers */,
+				6F0D414B19C7027A00F520BC /* CocosDL.h in Headers */,
+				6F0D409119C6FC6500F520BC /* ObjectPool.h in Headers */,
+				66E89FBAE122D8710882DFD9 /* Log.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D40C019C6FF2F00F520BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D411319C7017100F520BC /* Action.h in Headers */,
+				6F0D411519C7018A00F520BC /* ActionObserver.h in Headers */,
+				6F0D411419C7018A00F520BC /* ActionFactory.h in Headers */,
+				6F0D411619C7018A00F520BC /* ActionPool.h in Headers */,
+				6F0D411819C7018A00F520BC /* FadeOutAction.h in Headers */,
+				6F0D411919C7018A00F520BC /* GroupAction.h in Headers */,
+				6F0D411A19C7018A00F520BC /* MoveByAction.h in Headers */,
+				6F0D411B19C7018A00F520BC /* MoveToAction.h in Headers */,
+				6F0D411C19C7018A00F520BC /* PlayEffectAction.h in Headers */,
+				6F0D411D19C7018A00F520BC /* RemoveFromParentAction.h in Headers */,
+				6F0D411E19C7018A00F520BC /* RepeatForeverAction.h in Headers */,
+				6F0D411F19C701B200F520BC /* ResizeByAction.h in Headers */,
+				6F0D412119C701B200F520BC /* ResizeToAction.h in Headers */,
+				6F0D412319C701B200F520BC /* RotateByAction.h in Headers */,
+				6F0D412919C701B200F520BC /* SequenceAction.h in Headers */,
+				6F0D421019C7113B00F520BC /* NodeVector.h in Headers */,
+				6F0D412B19C701B200F520BC /* TiltLabelFontAction.h in Headers */,
+				6F0D412D19C701B200F520BC /* TimedAction.h in Headers */,
+				6F0D412F19C701B200F520BC /* WaitAction.h in Headers */,
+				6F0D413119C701B200F520BC /* Button.h in Headers */,
+				6F0D413319C701B300F520BC /* Color.h in Headers */,
+				6F0D413619C701B300F520BC /* Game.h in Headers */,
+				6F0D413819C701B300F520BC /* Label.h in Headers */,
+				6F0D413A19C701B300F520BC /* Node.h in Headers */,
+				6F0D413C19C701B300F520BC /* Point.h in Headers */,
+				6F0D413E19C701B300F520BC /* Rect.h in Headers */,
+				6F0D414019C701B300F520BC /* Renderer.h in Headers */,
+				6F0D414219C701B300F520BC /* Scene.h in Headers */,
+				6F0D414419C701B400F520BC /* Sprite.h in Headers */,
+				6F0D414619C701B400F520BC /* Texture.h in Headers */,
+				6F0D414819C701B400F520BC /* Command.h in Headers */,
+				6F0D413419C701B300F520BC /* Framework.h in Headers */,
+				6F0D412519C701B200F520BC /* RotateToAction.h in Headers */,
+				6F0D412719C701B200F520BC /* RunCommandAction.h in Headers */,
+				6F0D414D19C7038500F520BC /* CocosDL.h in Headers */,
+				6F0D411719C7018A00F520BC /* FadeInAction.h in Headers */,
+				66E8975CB03138C095481D63 /* Log.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D419719C7099300F520BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D41CC19C70A1800F520BC /* Action.h in Headers */,
+				6F0D41CD19C70A1800F520BC /* ActionFactory.h in Headers */,
+				6F0D41CF19C70A1800F520BC /* ActionPool.h in Headers */,
+				6F0D41D419C70A1800F520BC /* MoveToAction.h in Headers */,
+				6F0D41D519C70A1800F520BC /* PlayEffectAction.h in Headers */,
+				6F0D41CE19C70A1800F520BC /* ActionObserver.h in Headers */,
+				6F0D41D619C70A1800F520BC /* RemoveFromParentAction.h in Headers */,
+				6F0D41D719C70A1800F520BC /* RepeatForeverAction.h in Headers */,
+				6F0D41D019C70A1800F520BC /* FadeInAction.h in Headers */,
+				6F0D41D119C70A1800F520BC /* FadeOutAction.h in Headers */,
+				6F0D41D219C70A1800F520BC /* GroupAction.h in Headers */,
+				6F0D41D319C70A1800F520BC /* MoveByAction.h in Headers */,
+				6F0D41D819C70A1800F520BC /* ResizeByAction.h in Headers */,
+				6F0D41D919C70A1900F520BC /* ResizeToAction.h in Headers */,
+				6F0D41DA19C70A1900F520BC /* RotateByAction.h in Headers */,
+				6F0D41DB19C70A1900F520BC /* RotateToAction.h in Headers */,
+				6F0D41DC19C70A1900F520BC /* RunCommandAction.h in Headers */,
+				6F0D41DD19C70A1900F520BC /* SequenceAction.h in Headers */,
+				6F0D41DE19C70A1900F520BC /* TiltLabelFontAction.h in Headers */,
+				6F0D41DF19C70A1900F520BC /* TimedAction.h in Headers */,
+				6F0D41E019C70A1900F520BC /* WaitAction.h in Headers */,
+				6F0D41E119C70A1900F520BC /* Button.h in Headers */,
+				6F0D41E219C70A1900F520BC /* Color.h in Headers */,
+				6F0D41E319C70A1900F520BC /* Framework.h in Headers */,
+				6F0D41E419C70A1900F520BC /* Game.h in Headers */,
+				6F0D41E519C70A1900F520BC /* Label.h in Headers */,
+				6F0D41E619C70A1900F520BC /* Node.h in Headers */,
+				6F0D41E719C70A1900F520BC /* Point.h in Headers */,
+				6F0D41E819C70A1900F520BC /* Rect.h in Headers */,
+				6F0D41E919C70A1A00F520BC /* Renderer.h in Headers */,
+				6F0D41EA19C70A1A00F520BC /* Scene.h in Headers */,
+				6F0D41EB19C70A1A00F520BC /* Sprite.h in Headers */,
+				6F0D41EC19C70A1A00F520BC /* Texture.h in Headers */,
+				6F0D41ED19C70A1A00F520BC /* Command.h in Headers */,
+				6F0D41EE19C70A1A00F520BC /* NodeVector.h in Headers */,
+				6F0D41F019C70A1A00F520BC /* CocosDL.h in Headers */,
+				6F0D41EF19C70A1A00F520BC /* ObjectPool.h in Headers */,
+				66E89B583C3D3A232BB65201 /* Log.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F0D3FDE19C6FAFF00F520BC /* Shared Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0D3FE319C6FAFF00F520BC /* Build configuration list for PBXNativeTarget "Shared Library" */;
+			buildPhases = (
+				6F0D3FDB19C6FAFF00F520BC /* Sources */,
+				6F0D3FDC19C6FAFF00F520BC /* Frameworks */,
+				6F0D3FDD19C6FAFF00F520BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shared Library";
+			productName = CocosDL;
+			productReference = 6F0D3FDF19C6FAFF00F520BC /* libCocosDL.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6F0D40C219C6FF2F00F520BC /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0D40E719C6FF3000F520BC /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				6F0D40BE19C6FF2F00F520BC /* Sources */,
+				6F0D40BF19C6FF2F00F520BC /* Frameworks */,
+				6F0D40C019C6FF2F00F520BC /* Headers */,
+				6F0D40C119C6FF2F00F520BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = "CocosDL-F";
+			productReference = 6F0D40C319C6FF2F00F520BC /* CocosDL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F0D419819C7099300F520BC /* Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0D419A19C7099400F520BC /* Build configuration list for PBXNativeTarget "Static Library" */;
+			buildPhases = (
+				6F0D419519C7099300F520BC /* Sources */,
+				6F0D419619C7099300F520BC /* Frameworks */,
+				6F0D419719C7099300F520BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Static Library";
+			productName = "CocosDL-SL";
+			productReference = 6F0D419919C7099300F520BC /* libCocosDL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0D3FD719C6FAFF00F520BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Narciso Cerezo";
+			};
+			buildConfigurationList = 6F0D3FDA19C6FAFF00F520BC /* Build configuration list for PBXProject "CocosDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F0D3FD619C6FAFF00F520BC;
+			productRefGroup = 6F0D3FE019C6FAFF00F520BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0D3FDE19C6FAFF00F520BC /* Shared Library */,
+				6F0D40C219C6FF2F00F520BC /* Framework */,
+				6F0D419819C7099300F520BC /* Static Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0D40C119C6FF2F00F520BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0D3FDB19C6FAFF00F520BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D406719C6FC6500F520BC /* RotateByAction.cpp in Sources */,
+				6F0D405D19C6FC6500F520BC /* PlayEffectAction.cpp in Sources */,
+				6F0D406319C6FC6500F520BC /* ResizeByAction.cpp in Sources */,
+				6F0D407A19C6FC6500F520BC /* Game.cpp in Sources */,
+				6F0D407319C6FC6500F520BC /* WaitAction.cpp in Sources */,
+				6F0D406F19C6FC6500F520BC /* TiltLabelFontAction.cpp in Sources */,
+				6F0D407C19C6FC6500F520BC /* Label.cpp in Sources */,
+				6F0D406919C6FC6500F520BC /* RotateToAction.cpp in Sources */,
+				6F0D404D19C6FC6500F520BC /* ActionFactory.cpp in Sources */,
+				6F0D407E19C6FC6500F520BC /* Node.cpp in Sources */,
+				6F0D408E19C6FC6500F520BC /* NodeVector.cpp in Sources */,
+				6F0D405919C6FC6500F520BC /* MoveByAction.cpp in Sources */,
+				6F0D404B19C6FC6500F520BC /* Action.cpp in Sources */,
+				6F0D408819C6FC6500F520BC /* Sprite.cpp in Sources */,
+				6F0D409019C6FC6500F520BC /* ObjectPool.cpp in Sources */,
+				6F0D408A19C6FC6500F520BC /* Texture.cpp in Sources */,
+				6F0D408019C6FC6500F520BC /* Point.cpp in Sources */,
+				6F0D407519C6FC6500F520BC /* Button.cpp in Sources */,
+				6F0D406119C6FC6500F520BC /* RepeatForeverAction.cpp in Sources */,
+				6F0D406D19C6FC6500F520BC /* SequenceAction.cpp in Sources */,
+				6F0D405519C6FC6500F520BC /* FadeOutAction.cpp in Sources */,
+				6F0D404F19C6FC6500F520BC /* ActionObserver.cpp in Sources */,
+				6F0D408619C6FC6500F520BC /* Scene.cpp in Sources */,
+				6F0D405319C6FC6500F520BC /* FadeInAction.cpp in Sources */,
+				6F0D408219C6FC6500F520BC /* Rect.cpp in Sources */,
+				6F0D407119C6FC6500F520BC /* TimedAction.cpp in Sources */,
+				6F0D405F19C6FC6500F520BC /* RemoveFromParentAction.cpp in Sources */,
+				6F0D408C19C6FC6500F520BC /* Command.cpp in Sources */,
+				6F0D405719C6FC6500F520BC /* GroupAction.cpp in Sources */,
+				6F0D405119C6FC6500F520BC /* ActionPool.cpp in Sources */,
+				6F0D406B19C6FC6500F520BC /* RunCommandAction.cpp in Sources */,
+				6F0D406519C6FC6500F520BC /* ResizeToAction.cpp in Sources */,
+				6F0D407719C6FC6500F520BC /* Color.cpp in Sources */,
+				6F0D408419C6FC6500F520BC /* Renderer.cpp in Sources */,
+				6F0D405B19C6FC6500F520BC /* MoveToAction.cpp in Sources */,
+				66E8971E1B4982A59364EA57 /* Log.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D40BE19C6FF2F00F520BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D415919C7070C00F520BC /* Action.cpp in Sources */,
+				6F0D415A19C7070C00F520BC /* ActionFactory.cpp in Sources */,
+				6F0D415B19C7070C00F520BC /* ActionObserver.cpp in Sources */,
+				6F0D415C19C7070C00F520BC /* ActionPool.cpp in Sources */,
+				6F0D415D19C7070C00F520BC /* FadeInAction.cpp in Sources */,
+				6F0D415E19C7070C00F520BC /* FadeOutAction.cpp in Sources */,
+				6F0D415F19C7070C00F520BC /* GroupAction.cpp in Sources */,
+				6F0D416019C7070C00F520BC /* MoveByAction.cpp in Sources */,
+				6F0D416119C7070C00F520BC /* MoveToAction.cpp in Sources */,
+				6F0D416219C7070C00F520BC /* PlayEffectAction.cpp in Sources */,
+				6F0D416319C7070C00F520BC /* RemoveFromParentAction.cpp in Sources */,
+				6F0D416419C7070C00F520BC /* RepeatForeverAction.cpp in Sources */,
+				6F0D416519C7070C00F520BC /* ResizeByAction.cpp in Sources */,
+				6F0D416619C7070C00F520BC /* ResizeToAction.cpp in Sources */,
+				6F0D416719C7070C00F520BC /* RotateByAction.cpp in Sources */,
+				6F0D416819C7070C00F520BC /* RotateToAction.cpp in Sources */,
+				6F0D416919C7070C00F520BC /* RunCommandAction.cpp in Sources */,
+				6F0D416A19C7070C00F520BC /* SequenceAction.cpp in Sources */,
+				6F0D416B19C7070C00F520BC /* TiltLabelFontAction.cpp in Sources */,
+				6F0D416C19C7070C00F520BC /* TimedAction.cpp in Sources */,
+				6F0D416D19C7070C00F520BC /* WaitAction.cpp in Sources */,
+				6F0D416E19C7070C00F520BC /* Button.cpp in Sources */,
+				6F0D416F19C7070C00F520BC /* Color.cpp in Sources */,
+				6F0D417019C7070C00F520BC /* Game.cpp in Sources */,
+				6F0D417119C7070C00F520BC /* Label.cpp in Sources */,
+				6F0D417219C7070C00F520BC /* Node.cpp in Sources */,
+				6F0D417319C7070C00F520BC /* Point.cpp in Sources */,
+				6F0D417419C7070C00F520BC /* Rect.cpp in Sources */,
+				6F0D417519C7070C00F520BC /* Renderer.cpp in Sources */,
+				6F0D417619C7070C00F520BC /* Scene.cpp in Sources */,
+				6F0D417719C7070C00F520BC /* Sprite.cpp in Sources */,
+				6F0D417819C7070C00F520BC /* Texture.cpp in Sources */,
+				6F0D417919C7070C00F520BC /* Command.cpp in Sources */,
+				6F0D417A19C7070C00F520BC /* NodeVector.cpp in Sources */,
+				6F0D417B19C7070C00F520BC /* ObjectPool.cpp in Sources */,
+				6F0D40D319C6FF2F00F520BC /* CocosDL_F.m in Sources */,
+				66E8916CAEBFC5842FE746D9 /* Log.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0D419519C7099300F520BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D419D19C709B700F520BC /* Action.cpp in Sources */,
+				6F0D419E19C709B700F520BC /* ActionFactory.cpp in Sources */,
+				6F0D419F19C709B700F520BC /* ActionObserver.cpp in Sources */,
+				6F0D41A019C709B700F520BC /* ActionPool.cpp in Sources */,
+				6F0D41A119C709B700F520BC /* FadeInAction.cpp in Sources */,
+				6F0D41A219C709B700F520BC /* FadeOutAction.cpp in Sources */,
+				6F0D41A319C709B700F520BC /* GroupAction.cpp in Sources */,
+				6F0D41A419C709B700F520BC /* MoveByAction.cpp in Sources */,
+				6F0D41A519C709B700F520BC /* MoveToAction.cpp in Sources */,
+				6F0D41A619C709B700F520BC /* PlayEffectAction.cpp in Sources */,
+				6F0D41A719C709B700F520BC /* RemoveFromParentAction.cpp in Sources */,
+				6F0D41A819C709B700F520BC /* RepeatForeverAction.cpp in Sources */,
+				6F0D41A919C709B700F520BC /* ResizeByAction.cpp in Sources */,
+				6F0D41AA19C709B700F520BC /* ResizeToAction.cpp in Sources */,
+				6F0D41AB19C709B700F520BC /* RotateByAction.cpp in Sources */,
+				6F0D41AC19C709B700F520BC /* RotateToAction.cpp in Sources */,
+				6F0D41AD19C709B700F520BC /* RunCommandAction.cpp in Sources */,
+				6F0D41AE19C709B700F520BC /* SequenceAction.cpp in Sources */,
+				6F0D41AF19C709B700F520BC /* TiltLabelFontAction.cpp in Sources */,
+				6F0D41B019C709B700F520BC /* TimedAction.cpp in Sources */,
+				6F0D41B119C709B700F520BC /* WaitAction.cpp in Sources */,
+				6F0D41B219C709B700F520BC /* Button.cpp in Sources */,
+				6F0D41B319C709B700F520BC /* Color.cpp in Sources */,
+				6F0D41B419C709B700F520BC /* Game.cpp in Sources */,
+				6F0D41B519C709B700F520BC /* Label.cpp in Sources */,
+				6F0D41B619C709B700F520BC /* Node.cpp in Sources */,
+				6F0D41B719C709B700F520BC /* Point.cpp in Sources */,
+				6F0D41B819C709B700F520BC /* Rect.cpp in Sources */,
+				6F0D41B919C709B700F520BC /* Renderer.cpp in Sources */,
+				6F0D41BA19C709B700F520BC /* Scene.cpp in Sources */,
+				6F0D41BB19C709B700F520BC /* Sprite.cpp in Sources */,
+				6F0D41BC19C709B700F520BC /* Texture.cpp in Sources */,
+				6F0D41BD19C709B800F520BC /* Command.cpp in Sources */,
+				6F0D41BE19C709B800F520BC /* NodeVector.cpp in Sources */,
+				6F0D41BF19C709B800F520BC /* ObjectPool.cpp in Sources */,
+				66E897B8FCD1A54195BBEB6D /* Log.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F0D40A719C6FD0F00F520BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0D40A819C6FD0F00F520BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F0D40CD19C6FF2F00F520BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0D40CE19C6FF2F00F520BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F0D40E219C6FF3000F520BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0D40E319C6FF3000F520BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0D3FE119C6FAFF00F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6F0D3FE219C6FAFF00F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6F0D3FE419C6FAFF00F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = CocosDL;
+			};
+			name = Debug;
+		};
+		6F0D3FE519C6FAFF00F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = CocosDL;
+			};
+			name = Release;
+		};
+		6F0D40E819C6FF3000F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosDL-F/CocosDL-F-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocosDL-F/CocosDL-F-Info.plist";
+				PRODUCT_NAME = CocosDL;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		6F0D40E919C6FF3000F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocosDL-F/CocosDL-F-Prefix.pch";
+				INFOPLIST_FILE = "CocosDL-F/CocosDL-F-Info.plist";
+				PRODUCT_NAME = CocosDL;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		6F0D419B19C7099400F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = CocosDL;
+			};
+			name = Debug;
+		};
+		6F0D419C19C7099400F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = CocosDL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0D3FDA19C6FAFF00F520BC /* Build configuration list for PBXProject "CocosDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D3FE119C6FAFF00F520BC /* Debug */,
+				6F0D3FE219C6FAFF00F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0D3FE319C6FAFF00F520BC /* Build configuration list for PBXNativeTarget "Shared Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D3FE419C6FAFF00F520BC /* Debug */,
+				6F0D3FE519C6FAFF00F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0D40E719C6FF3000F520BC /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D40E819C6FF3000F520BC /* Debug */,
+				6F0D40E919C6FF3000F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0D419A19C7099400F520BC /* Build configuration list for PBXNativeTarget "Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D419B19C7099400F520BC /* Debug */,
+				6F0D419C19C7099400F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0D3FD719C6FAFF00F520BC /* Project object */;
+}

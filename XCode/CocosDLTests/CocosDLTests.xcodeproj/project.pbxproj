@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66E892F1C15D5316445D0C72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E897C4186F602232E05A8E /* main.cpp */; };
+		66E898304A23A69C5879BCF5 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66E8900907B32BAAEA8AA7DE /* MainScene.cpp */; };
+		6F0D41FD19C70CC300F520BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41F519C70CC300F520BC /* AudioToolbox.framework */; };
+		6F0D41FE19C70CC300F520BC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41F619C70CC300F520BC /* AudioUnit.framework */; };
+		6F0D41FF19C70CC300F520BC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41F719C70CC300F520BC /* Carbon.framework */; };
+		6F0D420019C70CC300F520BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41F819C70CC300F520BC /* Cocoa.framework */; };
+		6F0D420119C70CC300F520BC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41F919C70CC300F520BC /* CoreAudio.framework */; };
+		6F0D420219C70CC300F520BC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41FA19C70CC300F520BC /* CoreFoundation.framework */; };
+		6F0D420319C70CC300F520BC /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41FB19C70CC300F520BC /* ForceFeedback.framework */; };
+		6F0D420419C70CC300F520BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D41FC19C70CC300F520BC /* IOKit.framework */; };
+		6F0D420519C7103400F520BC /* CocosDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D415119C704B300F520BC /* CocosDL.framework */; };
+		6F0D420B19C7106700F520BC /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D420619C7106700F520BC /* SDL2_image.framework */; };
+		6F0D420C19C7106700F520BC /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D420719C7106700F520BC /* SDL2_mixer.framework */; };
+		6F0D420D19C7106700F520BC /* SDL2_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D420819C7106700F520BC /* SDL2_net.framework */; };
+		6F0D420E19C7106700F520BC /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D420919C7106700F520BC /* SDL2_ttf.framework */; };
+		6F0D420F19C7106700F520BC /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0D420A19C7106700F520BC /* SDL2.framework */; };
+		6F0D421E19C730B800F520BC /* res in CopyFiles */ = {isa = PBXBuildFile; fileRef = 66E892CA01636966CC11DC8B /* res */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0D40B519C6FE0600F520BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F0D3FDF19C6FAFF00F520BC;
+			remoteInfo = CocosDL;
+		};
+		6F0D415019C704B300F520BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F0D40C319C6FF2F00F520BC;
+			remoteInfo = "CocosDL-F";
+		};
+		6F0D41F219C70CC200F520BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F0D419919C7099300F520BC;
+			remoteInfo = "Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F0D3FED19C6FB1700F520BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				6F0D421E19C730B800F520BC /* res in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66E8900008E1A4A3529FB6F5 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		66E8900907B32BAAEA8AA7DE /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		66E892CA01636966CC11DC8B /* res */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		66E896DD4B24D59973640CD4 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		66E897C4186F602232E05A8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6F0D3FEF19C6FB1700F520BC /* CocosDLTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocosDLTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0D3FF419C6FB1700F520BC /* CocosDLTests.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CocosDLTests.1; sourceTree = "<group>"; };
+		6F0D40AE19C6FD3D00F520BC /* libCocosDL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCocosDL.dylib; path = "../../../../../Library/Developer/Xcode/DerivedData/cocosdl-bxhrrroprmygqqemtgqhztipupuc/Build/Products/Debug/libCocosDL.dylib"; sourceTree = "<group>"; };
+		6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocosDL.xcodeproj; path = ../CocosDL/CocosDL.xcodeproj; sourceTree = "<group>"; };
+		6F0D41F519C70CC300F520BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6F0D41F619C70CC300F520BC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		6F0D41F719C70CC300F520BC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		6F0D41F819C70CC300F520BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F0D41F919C70CC300F520BC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6F0D41FA19C70CC300F520BC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6F0D41FB19C70CC300F520BC /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
+		6F0D41FC19C70CC300F520BC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6F0D420619C7106700F520BC /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		6F0D420719C7106700F520BC /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		6F0D420819C7106700F520BC /* SDL2_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_net.framework; path = ../../../../../../../Library/Frameworks/SDL2_net.framework; sourceTree = "<group>"; };
+		6F0D420919C7106700F520BC /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		6F0D420A19C7106700F520BC /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0D3FEC19C6FB1700F520BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0D420B19C7106700F520BC /* SDL2_image.framework in Frameworks */,
+				6F0D420C19C7106700F520BC /* SDL2_mixer.framework in Frameworks */,
+				6F0D420D19C7106700F520BC /* SDL2_net.framework in Frameworks */,
+				6F0D420E19C7106700F520BC /* SDL2_ttf.framework in Frameworks */,
+				6F0D420F19C7106700F520BC /* SDL2.framework in Frameworks */,
+				6F0D420519C7103400F520BC /* CocosDL.framework in Frameworks */,
+				6F0D41FD19C70CC300F520BC /* AudioToolbox.framework in Frameworks */,
+				6F0D41FE19C70CC300F520BC /* AudioUnit.framework in Frameworks */,
+				6F0D41FF19C70CC300F520BC /* Carbon.framework in Frameworks */,
+				6F0D420019C70CC300F520BC /* Cocoa.framework in Frameworks */,
+				6F0D420119C70CC300F520BC /* CoreAudio.framework in Frameworks */,
+				6F0D420219C70CC300F520BC /* CoreFoundation.framework in Frameworks */,
+				6F0D420319C70CC300F520BC /* ForceFeedback.framework in Frameworks */,
+				6F0D420419C70CC300F520BC /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66E8934494A5A19272FFAB1B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				66E897C4186F602232E05A8E /* main.cpp */,
+				66E896DD4B24D59973640CD4 /* settings.h */,
+				66E8900907B32BAAEA8AA7DE /* MainScene.cpp */,
+				66E8900008E1A4A3529FB6F5 /* MainScene.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6F0D3FE619C6FB1700F520BC = {
+			isa = PBXGroup;
+			children = (
+				6F0D420619C7106700F520BC /* SDL2_image.framework */,
+				6F0D420719C7106700F520BC /* SDL2_mixer.framework */,
+				6F0D420819C7106700F520BC /* SDL2_net.framework */,
+				6F0D420919C7106700F520BC /* SDL2_ttf.framework */,
+				6F0D420A19C7106700F520BC /* SDL2.framework */,
+				6F0D41F519C70CC300F520BC /* AudioToolbox.framework */,
+				6F0D41F619C70CC300F520BC /* AudioUnit.framework */,
+				6F0D41F719C70CC300F520BC /* Carbon.framework */,
+				6F0D41F819C70CC300F520BC /* Cocoa.framework */,
+				6F0D41F919C70CC300F520BC /* CoreAudio.framework */,
+				6F0D41FA19C70CC300F520BC /* CoreFoundation.framework */,
+				6F0D41FB19C70CC300F520BC /* ForceFeedback.framework */,
+				6F0D41FC19C70CC300F520BC /* IOKit.framework */,
+				6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */,
+				6F0D40AE19C6FD3D00F520BC /* libCocosDL.dylib */,
+				6F0D3FF119C6FB1700F520BC /* CocosDLTests */,
+				6F0D3FF019C6FB1700F520BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0D3FF019C6FB1700F520BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D3FEF19C6FB1700F520BC /* CocosDLTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0D3FF119C6FB1700F520BC /* CocosDLTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40BB19C6FEDB00F520BC /* tests */,
+				6F0D3FF419C6FB1700F520BC /* CocosDLTests.1 */,
+			);
+			path = CocosDLTests;
+			sourceTree = "<group>";
+		};
+		6F0D40B119C6FE0600F520BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D40B619C6FE0600F520BC /* libCocosDL.dylib */,
+				6F0D415119C704B300F520BC /* CocosDL.framework */,
+				6F0D41F319C70CC200F520BC /* libCocosDL.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0D40BB19C6FEDB00F520BC /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				66E8934494A5A19272FFAB1B /* src */,
+				66E892CA01636966CC11DC8B /* res */,
+			);
+			name = tests;
+			path = ../../../tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0D3FEE19C6FB1700F520BC /* CocosDLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0D3FF819C6FB1700F520BC /* Build configuration list for PBXNativeTarget "CocosDLTests" */;
+			buildPhases = (
+				6F0D3FEB19C6FB1700F520BC /* Sources */,
+				6F0D3FEC19C6FB1700F520BC /* Frameworks */,
+				6F0D3FED19C6FB1700F520BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocosDLTests;
+			productName = CocosDLTests;
+			productReference = 6F0D3FEF19C6FB1700F520BC /* CocosDLTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0D3FE719C6FB1700F520BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Narciso Cerezo";
+			};
+			buildConfigurationList = 6F0D3FEA19C6FB1700F520BC /* Build configuration list for PBXProject "CocosDLTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F0D3FE619C6FB1700F520BC;
+			productRefGroup = 6F0D3FF019C6FB1700F520BC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6F0D40B119C6FE0600F520BC /* Products */;
+					ProjectRef = 6F0D40B019C6FE0600F520BC /* CocosDL.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6F0D3FEE19C6FB1700F520BC /* CocosDLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6F0D40B619C6FE0600F520BC /* libCocosDL.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libCocosDL.dylib;
+			remoteRef = 6F0D40B519C6FE0600F520BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F0D415119C704B300F520BC /* CocosDL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocosDL.framework;
+			remoteRef = 6F0D415019C704B300F520BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F0D41F319C70CC200F520BC /* libCocosDL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocosDL.a;
+			remoteRef = 6F0D41F219C70CC200F520BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0D3FEB19C6FB1700F520BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E892F1C15D5316445D0C72 /* main.cpp in Sources */,
+				66E898304A23A69C5879BCF5 /* MainScene.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F0D3FF619C6FB1700F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F0D3FF719C6FB1700F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F0D3FF919C6FB1700F520BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/cocosdl-bxhrrroprmygqqemtgqhztipupuc/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F0D3FFA19C6FB1700F520BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/cocosdl-bxhrrroprmygqqemtgqhztipupuc/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0D3FEA19C6FB1700F520BC /* Build configuration list for PBXProject "CocosDLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D3FF619C6FB1700F520BC /* Debug */,
+				6F0D3FF719C6FB1700F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0D3FF819C6FB1700F520BC /* Build configuration list for PBXNativeTarget "CocosDLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0D3FF919C6FB1700F520BC /* Debug */,
+				6F0D3FFA19C6FB1700F520BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F0D3FE719C6FB1700F520BC /* Project object */;
+}
